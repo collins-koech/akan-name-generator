@@ -37,10 +37,20 @@
              Female:
              <input id="female-input" type="radio" name="text" value="female">
             </label>
+                    <br><br>
+                    <input id="get-name" type="submit" value="Generate">
+                    <br><br>
+                </form>
+                <form onsubmit="return clearInput()">
+                    <input class="clear" type="submit" value="clear input">
+                </form>
+
+                <h4 id=display-name><strong>Your Akana name will be displayed below</strong></h4>
+                <p id="results"> </p>
 
         </div>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
