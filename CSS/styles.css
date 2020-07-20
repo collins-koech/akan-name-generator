@@ -1,3 +1,8 @@
 body {
     background-color: lightgreen;
 }
+
+h1 {
+    padding: 0;
+    animation-duration: inherit;
+}
